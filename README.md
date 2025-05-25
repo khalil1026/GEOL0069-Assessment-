@@ -9,32 +9,20 @@
 
 ---
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>📑 Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#background">Background</a></li>
-        <li><a href="#the-sentinel-2-satellite">The Sentinel-2 Satellite</a></li>
-        <li><a href="#machine-learning-methodology-k-means-clustering">Machine Learning Methodology: K-Means Clustering</a></li>
-      </ul>
-    </li>
-    <li><a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#datasets-used">Datasets Used</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a>
-      <ul>
-        <li><a href="#references">References</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
+## 📑 Table of Contents
+
+- [About the Project](#about-the-project)
+  - [Background](#background)
+  - [The Sentinel-2 Satellite](#the-sentinel-2-satellite)
+  - [Machine Learning Methodology: K-Means Clustering](#machine-learning-methodology-k-means-clustering)
+- [Getting Started](#getting-started)
+  - [Datasets Used](#datasets-used)
+- [Usage](#usage)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+  - [References](#references)
+
 
 ---
 
@@ -62,7 +50,8 @@ The MSI uses a push-broom sensor to record spatially contiguous lines of spectra
 
 K-means clustering partitions input data into K groups based on their spectral similarity. Each pixel's reflectance values across selected bands are treated as a feature vector. The algorithm iteratively assigns each pixel to its nearest cluster centroid and updates the centroids until convergence. This method is highly effective for initial unsupervised classification and feature exploration.
 
-![KMeans_Illustration](figures/kmeans_diagram.png)
+![KMeans_Illustration](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/K-means_convergence.gif/500px-K-means_convergence.gif)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,8 +90,8 @@ This project is distributed under the MIT License. See `LICENSE.txt` for details
 
 # Contact
 
-Selina Si – [UCL Crime & Security Science]  
-Email: [placeholder@example.com]  
+Jinyang Guo – [UCL Artificial Intelligence For Earth Observation (AI4EO)]  
+Email: [zcfbjyg@ucl.ac.uk]  
 Project Repository: _private submission_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
