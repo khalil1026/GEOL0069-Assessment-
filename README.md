@@ -55,6 +55,15 @@ K-means clustering partitions input data into K groups based on their spectral s
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Visual Analysis
+- Generated plots:
+- NDVI distribution map
+- KMeans classification result
+- Cluster-wise mean reflectance radar chart
+- Heatmap of mean reflectance across R, G, B, NIR bands
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Getting Started
 
 This project is written in Python and designed to run in Google Colab.
@@ -82,9 +91,9 @@ To reproduce this project:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# License
+## 📉 Environmental Cost
 
-This project is distributed under the MIT License. See `LICENSE.txt` for details.
+This project was conducted using Google Colab cloud computing resources. The estimated environmental impact, based on compute time, is minimal. However, awareness of cloud energy usage is vital for sustainable AI practices.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
